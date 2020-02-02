@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoShop</string>
+    <string name="products_name">Nama Produk</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="aku">aku</string>
+</resources>

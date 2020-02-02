@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_detail_emina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/face_wash" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/detail_spesifikasi_harga"
+            style="@style/TextContent.Black"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="lorem ipsoum"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/detail_emina_produk"
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="16dp"
+            android:text="lorem ipsum"
+            android:textSize="24sp" />
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="8dp"
+            android:text="Spesifikasi" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Kategori" />
+
+                <TextView
+                    android:id="@+id/detail_spesifikasi_kategori"
+                    style="@style/TextSpec.Value"
+                    android:text="lorem ipsoum" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Merek" />
+
+                <TextView
+                    style="@style/TextSpec.Value"
+                    android:text="Emina" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="Stok" />
+
+                <TextView
+                    android:id="@+id/detail_spesifikasi_stok"
+                    style="@style/TextSpec.Value"
+                    android:text="lorem ipsum" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="8dp"
+            android:text="Deskripsi" />
+
+        <TextView
+            android:id="@+id/detail_deskripsi"
+            style="@style/TextContent"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:text="lorem ipsoum"
+            android:textColor="@android:color/black" />
+
+        <Button
+            style="@style/ButtonGeneral"
+            android:text="BELI" />
+    </LinearLayout>
+</ScrollView>
